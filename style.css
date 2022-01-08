@@ -1,0 +1,41 @@
+.heading {
+  margin-bottom: 40px;
+}
+
+.paragraph {
+  font-style: italic;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.toggleSuggestionsButton {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  user-select: none;
+}
+
+.suggestionsList {
+  visibility: hidden;
+}
+
+.suggestionsList.active {
+  visibility: visible;
+}
+
+.listItem {
+  text-indent: 10px;
+}
+
+.highlightedText {
+  font-weight: bold;
+  color: blue;
+  display: inline;
+}
+
+.note {
+  margin-top: 40px;
+  color: aqua;
+  background: blue;
+  padding: 10px;
+}
